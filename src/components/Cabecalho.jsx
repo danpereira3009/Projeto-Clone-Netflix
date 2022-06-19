@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom'
-import '../css/cabecalho.css'
+import './css/cabecalho.css'
 import Logo from '../assets/logo_danflix.png'
 import { SearchIcon } from '@heroicons/react/solid'
 import { useState } from 'react'
 import Capa from '../assets/eu.jpg'
-// import useTransitionState from "use-transition-state";
 
 
 export default () => {
@@ -23,14 +22,17 @@ return (
         <Link style={{ textDecoration: 'none' }} to="/documentarios"><div className='icone'>Bombando</div></Link>
     </div>
     
-    <SearchIcon onClick={()=> estado(!aberto)} className='searchIcon' /> 
-    {
-    aberto ? 
-    <input className='input' type="text" placeholder='Pesquisar'/>
-    : null
-    }
+    <div className='container_pesquisar'>
+        <SearchIcon onClick={()=> estado(!aberto)} className='searchIcon' /> 
 
-    <img src={Capa} alt="capa" className='login'/>
+        {
+        aberto && 
+        <input className='input' type="text" placeholder='Pesquisar'/>
+        }
+
+        <img src={Capa} alt="capa" className='login'/>
+    </div>
+
 </section>
 
 )}

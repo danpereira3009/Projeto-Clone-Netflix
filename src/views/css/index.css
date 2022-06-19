@@ -1,7 +1,7 @@
-.capa {
+.banner {
+    background: url("../../assets/dexter.jpg") no-repeat center/ cover;
+    height: 900px;
     position: relative;
     top: -5em;
-    width: 100%;
-    z-index: 0;
 }
 

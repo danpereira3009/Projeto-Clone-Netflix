@@ -1,12 +1,11 @@
-import Dexter from '../assets/dexter.jpg'
 import './css/index.css'
 export default () => 
 
-<section >
-    <img src={Dexter} alt="Dexter" className='capa'/>
+<section className='banner'>
+    
 
     <div className='body'>
-    
+
     </div>
    
 </section>
