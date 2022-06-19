@@ -1,0 +1,67 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 1em;
+    margin: 1em;
+    height: 3em;
+    z-index: 1;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    margin: 0 1em 0 0;
+	color: black;
+    font-weight: bold;
+}
+
+.icone:hover {
+	color: gray;
+    transition: 300ms;
+}
+
+.logo {
+    width: 8em;
+    height: 2.5em;
+    margin-right: 1em;
+}
+
+.searchIcon {
+    position: fixed;
+    right: 9em;
+    top: 1.5em;
+    width: 2.5em;
+    height: 2em;
+    color: black;
+}
+
+.searchIcon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.input {
+    padding-left: 3em;
+    width: 100%;
+    border-radius: 20em;
+    border-color: black;
+    opacity: 10;
+    background-color: whitesmoke;
+    
+}
+
+.login {
+    width: 3em;
+    height: 3em;
+    margin-left: 3em;
+    border-radius: 20%;
+}
+
+.login {
+    cursor: pointer;
+}
