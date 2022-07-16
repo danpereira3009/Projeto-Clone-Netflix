@@ -4,8 +4,8 @@ import Index from "./views/Index";
 import Filmes from "./views/filmes/Filmes"
 import Series from './views/series/Series'
 import Documentarios from './views/documentarios/Documentarios'
-import Cabecalho from "./components/Cabecalho";
-import Footer from "./components/Footer";
+import Cabecalho from "./components/templates/Cabecalho";
+import Footer from "./components/templates/Footer";
 
 export default function AppRouter() {
     return (

@@ -1,0 +1,21 @@
+.carousel {
+    display: flex;
+    overflow: auto;
+}
+
+.box-filme {
+    padding: 1em;
+}
+
+.box-filme:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.destaque {
+    font-size: 3em;
+    margin: -0.7em 0 0 1em;
+    font-family: sans-serif;
+    color: white;    
+}

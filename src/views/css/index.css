@@ -1,7 +1,61 @@
+.conteudo {
+    margin-top: 100px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+    color: white;
+}
+
 .banner {
-    background: url("../../assets/dexter.jpg") no-repeat center/ cover;
-    height: 900px;
-    position: relative;
-    top: -5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+    z-index: -1;
+}
+
+.body {
+    padding: 5em;
+    
+}
+
+.d__danflix {
+    color: red;
+    font-size: 40px;
+    margin-right: 10px;
+}
+    
+.nome__filme {
+    font-family: 'Amiri', serif;
+}
+
+.d-nome__filme{
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 100px 0 100px;
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 10px;
+    color: white;
+}
+
+.sinopse {
+    font-family: monospace;
+    color: white;
+    font-size: 1.5em;
+}
+
+.autor {
+    margin-left: 100px;
 }
 
